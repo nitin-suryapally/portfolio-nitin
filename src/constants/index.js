@@ -24,47 +24,46 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Rohan Lal Das',
+    position: 'Consulting | Analytics | Operations',
+    img: 'assets/review1.jpeg',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'I had the pleasure of working with Nitin on the design of our website, and I cannot recommend him highly enough. From the very beginning, he demonstrated an exceptional understanding of our requirements, What truly set Nitin apart was his ability to provide valuable insights that enhanced the overall design and functionality. His suggestions were not only thoughtful but significantly improved the user experience.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Shivathmaj Shenoy M',
+    position: 'CEO and Co-Founder Scale Socials',
+    img: 'assets/review2.jpeg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      "Working with you was amazing. I really appreciate how involved you were in the project. Even though the scope expanded, and I covered it, you delivered top-quality work just as I imagined for our client. I'd highly recommend you to anyone looking for a skilled developer at an affordable price.",
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Dhananjay Puranik',
+    position: 'Co-Founder at Tuffle',
+    img: 'assets/reviews3.jpeg',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'We hired Nitin for Frontend Web Development Services and he turned out to be a nice asset for the firm. From developing complex frontend to delivering within deadlines he is great at his work. If you are looking out for a frontend guy, go for him.',
   },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Ether Smith',
+  //   position: 'CEO of BrightStar Enterprises',
+  //   img: 'assets/review4.png',
+  //   review:
+  //     'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+  // },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    title: 'Descipr - AI Learning Platform',
+    desc: 'Unlock your AI potential with our Fellowships led by Hiring managers. Gain personalized guidance, tackle job-simulation projects, and join a supportive community. Start now to fast-track your AI career!',
+    subdesc: 'Fast-track your career with live Cohort-based learning and mentorship from Hiring managers',
+    href: 'https://descipr.com/',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/project-logo1.svg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -95,11 +94,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Meskolabs - Offering smart, end-to-end solutions for your needs.',
+    desc: 'Our mission is to bring your ideas to reality by offering a wide range of services, including product design and development, embedded hardware solutions, web design and development, and prototyping.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Our expertise ensures that we meet the unique needs of our clients, driving innovation and delivering exceptional results.',
+    href: 'https://1305a4bc.meskolabs-web.pages.dev/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -132,11 +131,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Resumepal - Your AI Companion For Interview Preparation',
+    desc: 'At Resumepal, we are on a mission to make Interview Preparation accessible to everyone anywhere!',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Unlock your resumes full potential with AI assistance! Let artificial intelligence identify the gaps in your resume, ensuring you stand out to employers and land your dream job.',
+    href: 'https://www.resumepal.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -171,11 +170,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Quoppo - Empowering small businesses to reach big potential',
+    desc: 'Quoppo is a venture Studio- Fueling Ambition, Driving Success.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Our vision extends beyond capital infusion. We aim to transform each venture through personalized guidance that addresses unique challenges and seizes distinctive opportunities.',
+    href: 'https://quoppo.com/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -208,13 +207,12 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    title: 'Kequel - Modular Customizable Bedside Table',
+    desc: 'Kequel furniture combines cutting-edge design with timeless elegance, offering smart features that enhance comfort and functionality. Each piece is meticulously crafted to elevate your living space, ensuring a blend of style and practicality that exceeds expectations.',
+    subdesc: 'Redefining Smart Functionality and Customization for Modern Lifestyles.',
+    href: 'https://20155ba9.kequel-web.pages.dev/',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    logo: '/assets/project-logo5.svg',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -260,29 +258,23 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Quoppo',
+    pos: 'Web Developer',
+    duration: '2024 - Present',
+    title:
+      'Working as a web developer at Quoppo Private Limited, successfully developed enterprise websites and SaaS-based web applications.',
+    icon: '/assets/project-logo4.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'upwork',
+    pos: 'freelance Web Developer',
+    duration: '2022 - 2024',
+    title:
+      'Worked as a freelance web developer, creating and delivering user-friendly websites for clients.',
+    icon: '/assets/upwork.jpg',
     animation: 'clapping',
   },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+  
 ];
