@@ -58,6 +58,42 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'Kikobot-Robotic solutions ',
+    desc: 'To deliver innovative, adaptable robotic solutions that enhance productivity and drive automation across industries.',
+    subdesc: 'Robotic solutions that enhance productivity and drive automation',
+    href: 'https://a1976551.kikobot.pages.dev/',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/project-logo6.jpg',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+  {
     title: 'Descipr - AI Learning Platform',
     desc: 'Unlock your AI potential with our Fellowships led by Hiring managers. Gain personalized guidance, tackle job-simulation projects, and join a supportive community. Start now to fast-track your AI career!',
     subdesc: 'Fast-track your career with live Cohort-based learning and mentorship from Hiring managers',
