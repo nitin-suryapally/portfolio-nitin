@@ -61,7 +61,7 @@ export const myProjects = [
     title: 'Kikobot-Robotic solutions ',
     desc: 'To deliver innovative, adaptable robotic solutions that enhance productivity and drive automation across industries.',
     subdesc: 'Robotic solutions that enhance productivity and drive automation',
-    href: 'https://a1976551.kikobot.pages.dev/',
+    href: 'https://kikobot.com/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo6.jpg',
     logoStyle: {
