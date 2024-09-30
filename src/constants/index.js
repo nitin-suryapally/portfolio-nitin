@@ -134,7 +134,7 @@ export const myProjects = [
     desc: 'Our mission is to bring your ideas to reality by offering a wide range of services, including product design and development, embedded hardware solutions, web design and development, and prototyping.',
     subdesc:
       'Our expertise ensures that we meet the unique needs of our clients, driving innovation and delivering exceptional results.',
-    href: 'https://1305a4bc.meskolabs-web.pages.dev/',
+    href: 'https://meskolabs.com/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
